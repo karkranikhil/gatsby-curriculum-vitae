@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "gatsby-resume",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A gatsby theme for the responsive resume.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -14,18 +14,20 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "gatsby": "^2.22.15",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
     "prettier": "2.0.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/karkranikhil/gatsby-resume"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/karkranikhil/gatsby-resume/issues"
   }
 }
