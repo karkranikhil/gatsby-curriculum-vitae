@@ -17,9 +17,10 @@
 
     Open the `gatsby-curriculum-vitae` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-2.  **Open the Data/index.js Replace the data with your data 
+2.  ## Open the `Data/index.js` Replace the data with your data 
 
-3.  **Available Themes
+3.  ## Available Themes
+
     ### BASIC THEME
     <div>
         <img src="./images/THEME_IMAGES/BASIC_THEME.PNG" alt="BASIC THEME">
