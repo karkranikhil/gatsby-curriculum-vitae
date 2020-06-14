@@ -24,22 +24,27 @@
     <div>
         <img src="./images/THEME_IMAGES/BASIC_THEME.PNG" alt="BASIC THEME">
     </div>
+    
      ### CAMELOT THEME
     <div>
         <img src="./images/THEME_IMAGES/CAMELOT_THEME.PNG" alt="CAMELOT THEME">
     </div>
+    
      ### CINNABAR THEME
     <div>
         <img src="./images/THEME_IMAGES/CINNABAR_THEME.PNG" alt="CINNABAR THEME">
     </div>
+    
      ### GOLDEN THEME
     <div>
         <img src="./images/THEME_IMAGES/GOLDEN_THEME.PNG" alt="GOLDEN THEME">
     </div>
+    
      ### IRISH THEME
     <div>
         <img src="./images/THEME_IMAGES/IRISH_THEME.PNG" alt="IRISH THEME">
     </div>
+    
     ### TEAL THEME
     <div>
         <img src="./images/THEME_IMAGES/TEAL_THEME.PNG" alt="TEAL THEME">
