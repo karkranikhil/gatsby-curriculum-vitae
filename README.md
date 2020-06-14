@@ -1,4 +1,4 @@
-## 🚀 Gatsby curriculum-vitae 
+## 🚀 Gatsby curriculum-vitae
 
 1.  **Start developing.**
 
@@ -17,7 +17,8 @@
 
     Open the `gatsby-curriculum-vitae` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-2.  **Open the `Data/index.js` Replace the data with your data** 
+1.  **Open the `Data/index.js` Replace the data with your data**
+
 ```javacript
 export default {
     THEME_TYPE: 'GOLDEN_THEME',
@@ -209,36 +210,40 @@ export default {
 3.  **Available Themes**
 
     ### BASIC THEME
+
     <div>
         <img src="./images/THEME_IMAGES/BASIC_THEME.PNG" alt="BASIC THEME">
     </div>
-    
-     ### CAMELOT THEME
+
+    ### CAMELOT THEME
+
     <div>
         <img src="./images/THEME_IMAGES/CAMELOT_THEME.PNG" alt="CAMELOT THEME">
     </div>
-    
-     ### CINNABAR THEME
+
+    ### CINNABAR THEME
+
     <div>
         <img src="./images/THEME_IMAGES/CINNABAR_THEME.PNG" alt="CINNABAR THEME">
     </div>
-    
-     ### GOLDEN THEME
+
+    ### GOLDEN THEME
+
     <div>
         <img src="./images/THEME_IMAGES/GOLDEN_THEME.PNG" alt="GOLDEN THEME">
     </div>
-    
-     ### IRISH THEME
+
+    ### IRISH THEME
+
     <div>
         <img src="./images/THEME_IMAGES/IRISH_THEME.PNG" alt="IRISH THEME">
     </div>
-    
+
     ### TEAL THEME
+
     <div>
         <img src="./images/THEME_IMAGES/TEAL_THEME.PNG" alt="TEAL THEME">
     </div>
-    
-
 
 ## 💫 Deploy
 
