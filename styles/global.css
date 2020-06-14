@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+:root {
+  --white-color:#ffffff;
+  --sanjuan-color: #434E5E;
+  --solitude-color:#F7F8FA;
+  --black-pearl-color:#191d22;
+  --light-white:rgba(255, 255, 255, 0.9);
+  --dull-white:rgba(255, 255, 255, 0.6);
+  --Heather-color:#AAB4C3;
+  --bali-hai-color:#8D9AAD;
+  --blue-bayoux-color:#58677c;
+
+  /*******Theme 2 Iris Blue*****/
+  --irish-blue-color:#08AEAC;
+  --prussian-blue-color:#002153;
+  --gossamer-color:#359796;
+
+  /******* THEME 3 Camelot ***/
+  --camelot-color:#80425F;
+
+  /******THEME 4 Cinnabar***/
+  --cinnabar-color:#DE3926;
+  /******THEME 5 GLODEN**/
+  --golden-color:#ffc455;
+  /****THEME 6 TEAL *****/
+  --teal-color:#2A5857;
+  --alpine-color:#a8823a;
+}
+
+.BASIC_THEME{
+  --theme-color:var(--sanjuan-color);
+  --theme-background:var(--solitude-color);
+  --theme-header-color:var(--light-white);
+  --theme-header-links:var(--dull-white);
+  --theme-horizontal-line-color:var(--Heather-color); /*used for line, award icon and work duration*/
+  --theme-vertical-line-color:var(--bali-hai-color); 
+  --theme-content-color:var(--blue-bayoux-color); /*used for content, company name*/
+  --theme-curriculum-vitae-body:var(--white-color);
+  --theme-badge-color:var(--theme-header-color);
+  --theme-skill-name-color:var(--sanjuan-color);
+}
+.IRISH_THEME{
+  --theme-color:var(--irish-blue-color);
+  --theme-background:var(--solitude-color);
+  --theme-header-color:var(--light-white);
+  --theme-header-links:var(--dull-white);
+  --theme-horizontal-line-color:var(--gossamer-color); /*used for line, award icon and work duration*/
+  --theme-vertical-line-color:var(--gossamer-color); 
+  --theme-content-color:var(--dull-white); /*used for content, company name*/
+  --theme-curriculum-vitae-body:var(--prussian-blue-color);
+  --theme-badge-color:var(--prussian-blue-color);
+  --theme-skill-name-color:var(--sanjuan-color);
+}
+.CAMELOT_THEME{
+   --theme-color:var(--camelot-color);
+  --theme-background:var(--solitude-color);
+  --theme-header-color:var(--light-white);
+  --theme-header-links:var(--dull-white);
+  --theme-horizontal-line-color:var(--Heather-color); /*used for line, award icon and work duration*/
+  --theme-vertical-line-color:var(--bali-hai-color); 
+  --theme-content-color:var(--blue-bayoux-color); /*used for content, company name*/
+  --theme-curriculum-vitae-body:var(--white-color);
+  --theme-badge-color:var(--theme-header-color);
+  --theme-skill-name-color:var(--sanjuan-color);
+}
+.CINNABAR_THEME{
+  --theme-color:var(--cinnabar-color);
+  --theme-background:var(--solitude-color);
+  --theme-header-color:var(--light-white);
+  --theme-header-links:var(--dull-white);
+  --theme-horizontal-line-color:var(--Heather-color); /*used for line, award icon and work duration*/
+  --theme-vertical-line-color:var(--bali-hai-color); 
+  --theme-content-color:var(--blue-bayoux-color); /*used for content, company name*/
+  --theme-curriculum-vitae-body:var(--white-color);
+  --theme-badge-color:var(--theme-header-color);
+  --theme-skill-name-color:var(--sanjuan-color);
+}
+.GOLDEN_THEME{
+  --theme-color:var(--golden-color);
+  --theme-background:var(--solitude-color);
+  --theme-header-color:var(--light-white);
+  --theme-header-links:var(--dull-white);
+  --theme-horizontal-line-color:var(--Heather-color); /*used for line, award icon and work duration*/
+  --theme-vertical-line-color:var(--bali-hai-color); 
+  --theme-content-color:var(--blue-bayoux-color); /*used for content, company name*/
+  --theme-curriculum-vitae-body:var(--white-color);
+  --theme-badge-color: #333;
+  --theme-skill-name-color:var(--sanjuan-color);
+}
+.TEAL_THEME{
+--theme-color:var(--teal-color);
+  --theme-background:var(--solitude-color);
+  --theme-header-color:var(--light-white);
+  --theme-header-links:var(--dull-white);
+  --theme-horizontal-line-color:var(--Heather-color); /*used for line, award icon and work duration*/
+  --theme-vertical-line-color:var(--bali-hai-color); 
+  --theme-content-color:var(--blue-bayoux-color); /*used for content, company name*/
+  --theme-curriculum-vitae-body:var(--white-color);
+  --theme-badge-color:var(--theme-header-color);
+  --theme-skill-name-color:var(--sanjuan-color);
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background:  var(--theme-background);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   color: var(--theme-color);
+}
+
+
+.progress {
+  border-radius: 2px;
+}
+
+.theme-progress-bar-dark {
+  background-color: var(--theme-color);
+}
+.curriculum-vitae-body{
+  background:var(--theme-curriculum-vitae-body);
+}
+
+.curriculum-vitae-wrapper {
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+.curriculum-vitae-wrapper-inner {
+  max-width: 1000px;
+}
+
+.curriculum-vitae-header {
+  background: var(--theme-color);
+  color: var(--theme-header-color);
+  height: 220px;
+}
+
+.curriculum-vitae-header .profile-picture {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.curriculum-vitae-header .username {
+  font-size: 2.25rem;
+  letter-spacing: 0.175rem;
+  font-weight: 900;
+}
+
+.curriculum-vitae-header .designation {
+  font-size: 1.5rem;
+}
+
+.curriculum-vitae-header a {
+  color: var(--theme-header-links);
+}
+
+.curriculum-vitae-header a:hover {
+  color: var(--light-white);
+}
+
+.curriculum-vitae-social {
+  font-size: 0.875rem;
+}
+
+.curriculum-vitae-social .fa-container {
+  font-size: 1rem;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 0.125rem;
+  background: var(--light-white);
+  color: var(--theme-color);
+}
+
+.curriculum-vitae-section-title {
+  font-size: 1.25rem;
+  position: relative;
+  color: var(--theme-color);
+}
+
+.curriculum-vitae-section-title:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 1.5px;
+  background: var(--theme-horizontal-line-color);
+}
+
+.curriculum-vitae-section-content {
+  color: var(--theme-content-color);
+}
+
+.curriculum-vitae-timeline {
+  padding-left: 2rem;
+}
+
+.curriculum-vitae-timeline:before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 100%;
+  background: var(--theme-vertical-line-color);
+  left: 6px;
+  top: 4px;
+  position: absolute;
+}
+
+.curriculum-vitae-timeline-item:before {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 15px;
+  height: 15px;
+  border: 4px solid var(--theme-content-color);
+  background: var(--light-white);
+  border-radius: 50%;
+}
+
+.curriculum-vitae-progress {
+  height: 0.6rem;
+}
+
+.curriculum-vitae-company-name {
+  color: var(--theme-content-color);
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.curriculum-vitae-position-time {
+  font-size: 0.875rem;
+  color: var(--theme-horizontal-line-color);
+}
+
+.curriculum-vitae-position-title {
+  font-size: 1.125rem;
+  color: var(--theme-color);
+}
+
+.curriculum-vitae-timeline-item-desc-heading {
+  font-size: 1rem;
+}
+
+.curriculum-vitae-skills-cat {
+  font-size: 1rem;
+  color: var(--theme-color);
+}
+
+.curriculum-vitae-skill-name {
+  font-size: 0.8125rem;
+  color: var(--theme-skill-name-color);
+}
+
+.curriculum-vitae-degree {
+  color: var(--theme-color);
+}
+
+.curriculum-vitae-degree-org {
+  font-size: 0.875rem;
+}
+
+.curriculum-vitae-degree-time {
+  color: var(--theme-horizontal-line-color);
+  font-size: 0.875rem;
+}
+
+.curriculum-vitae-award-icon {
+  left: 0;
+  top: 4px;
+  color: var(--theme-horizontal-line-color);
+}
+
+.curriculum-vitae-award-name {
+  font-weight: bold;
+  color: var(--theme-color);
+}
+
+.curriculum-vitae-award-desc {
+  font-size: 0.875rem;
+}
+
+.curriculum-vitae-lang-name {
+  color: var(--theme-color);
+}
+
+.footer .fa-heart {
+  color: #fb866a;
+}
+
+.key-points{
+    padding-left: 1.5rem;
+}
+.key-points li:before {
+  content: "✤";
+  position: absolute;
+  left:0;
+}
+.badge-light, .badge-primary {
+    color: var(--theme-badge-color) !important;
+    background-color:var(--theme-color) !important;
+}
+
+@media (max-width: 767px) {
+  .curriculum-vitae-wrapper {
+    padding-top: 0;
+  }
+  .curriculum-vitae-header {
+    height: auto;
+  }
+  .curriculum-vitae-header .profile-picture {
+    width: auto;
+    border-radius: 4px;
+  }
+}

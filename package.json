@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-resume",
+  "name": "gatsby-curriculum-vitae",
   "private": true,
-  "description": "A gatsby theme for the responsive resume.",
+  "description": "A gatsby theme for the responsive curriculum-vitae.",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -16,8 +16,10 @@
   "dependencies": {
     "bootstrap": "^4.5.0",
     "gatsby": "^2.22.15",
+    "gatsby-plugin-react-helmet": "^3.3.4",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-helmet": "^6.1.0"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
@@ -25,9 +27,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/karkranikhil/gatsby-resume"
+    "url": "https://github.com/karkranikhil/gatsby-curriculum-vitae"
   },
   "bugs": {
-    "url": "https://github.com/karkranikhil/gatsby-resume/issues"
+    "url": "https://github.com/karkranikhil/gatsby-curriculum-vitae/issues"
   }
 }

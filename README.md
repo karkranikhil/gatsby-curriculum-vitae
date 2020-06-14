@@ -1,4 +1,4 @@
-## 🚀 Gatsby Resume 
+## 🚀 Gatsby curriculum-vitae 
 
 1.  **Start developing.**
 
@@ -15,9 +15,38 @@
 
     _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+    Open the `gatsby-curriculum-vitae` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
-## 🧐 What's inside?
+2.  **Open the Data/index.js Replace the data with your data 
+
+3.  **Available Themes
+    ### BASIC THEME
+    <div>
+        <img src="./images/THEME_IMAGES/BASIC_THEME.PNG" alt="BASIC THEME">
+    </div>
+     ### CAMELOT THEME
+    <div>
+        <img src="./images/THEME_IMAGES/CAMELOT_THEME.PNG" alt="CAMELOT THEME">
+    </div>
+     ### CINNABAR THEME
+    <div>
+        <img src="./images/THEME_IMAGES/CINNABAR_THEME.PNG" alt="CINNABAR THEME">
+    </div>
+     ### GOLDEN THEME
+    <div>
+        <img src="./images/THEME_IMAGES/GOLDEN_THEME.PNG" alt="GOLDEN THEME">
+    </div>
+     ### IRISH THEME
+    <div>
+        <img src="./images/THEME_IMAGES/IRISH_THEME.PNG" alt="IRISH THEME">
+    </div>
+    ### TEAL THEME
+    <div>
+        <img src="./images/THEME_IMAGES/TEAL_THEME.PNG" alt="TEAL THEME">
+    </div>
+    
+
+## 🧐 What's inside the Project?
 
 A quick look at the top-level files and directories you'll see in a Gatsby project.
 
