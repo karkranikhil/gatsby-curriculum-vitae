@@ -1,5 +1,5 @@
 export default {
-    THEME_TYPE: 'GOLDEN_THEME',
+    THEME_TYPE: 'CINNABAR_THEME',
     HEADER_DATA: {
         profile_name: 'Nikhil Karkra',
         profile_designation: 'Full Stack Developer',
